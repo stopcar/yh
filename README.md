@@ -1,5 +1,5 @@
 # Project  parking
-# server   java         web/Api
-# client   OC/Swift     IOSApp
-# author   yinhaiping   2016/3
-项目详情: git@github.com:yhpdev/parking.git WiKi
+server: java_web/Api
+client: OC/Swift_IOSApp
+author: yinhaiping_2016/3
+项目详情: git@github.com:yhpdev/parking.git_WiKi
