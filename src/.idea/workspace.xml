@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a47bb047-4507-4576-8351-2c73994de388" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/src.iml" afterPath="$PROJECT_DIR$/.idea/src.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/frame/src/main/webapp/index.jsp" />
     </list>
     <list id="33e3d78a-6431-463c-99de-b8610bfbda2f" name="NoPush" comment="" />
     <ignored path="src.iws" />
@@ -483,12 +479,19 @@
       <workItem from="1462732438604" duration="1450000" />
       <workItem from="1462981170807" duration="312000" />
       <workItem from="1463019717862" duration="1840000" />
-      <workItem from="1463066928659" duration="11001000" />
+      <workItem from="1463066928659" duration="11068000" />
     </task>
+    <task id="LOCAL-00001" summary="IDEA配置修改">
+      <created>1463107661089</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1463107661089</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14603000" />
+    <option name="totallyTimeSpent" value="14670000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,6 +545,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IDEA配置修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="IDEA配置修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -882,6 +889,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13360325">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
