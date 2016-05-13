@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ReportTableMapper">
+	<cache type="org.mybatis.caches.ehcache.LoggingEhcache" />
+
+
+
+
+
+	<select id="reportCount" resultType="java.lang.Integer"
+		parameterType="java.util.Map" useCache="false">
+		select count(*) from sys_user where 1=1
+		<if test="roleId!=''">
+			AND ROLE_ID=#{roleId}
+		</if>
+		<if test="phone!=''">
+			and PHONE=#{phone}
+		</if>
+	</select>
+
+
+
+
+	<select id="queryReport" resultType="java.util.HashMap"
+		parameterType="java.util.Map" useCache="false">
+		select USER_ID,NAME,ROLE_ID,PHONE,date_format(LAST_LOGIN,'%Y-%m-%d %H:%i:%s') LAST_LOGIN FROM sys_user where 1=1
+		<if test="roleId!=''">
+			AND ROLE_ID=#{roleId}
+		</if>
+		<if test="phone!=''">
+			and PHONE=#{phone}
+		</if>
+		<include refid="order_sql" />
+		<include refid="limit_sql" />
+	</select>
+
+	<sql id="limit_sql">
+		<if test="start!=null">
+			limit #{start} ,#{limit}
+		</if>
+	</sql>
+	<sql id="order_sql">
+		<if test="sortname!=null">
+			order by ${sortname}
+			<if test="sortorder!=null">
+				${sortorder}
+			</if>
+		</if>
+	</sql>
+</mapper>
