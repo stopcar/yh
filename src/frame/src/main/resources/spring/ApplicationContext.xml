@@ -56,8 +56,8 @@
          <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
          <property name="minEvictableIdleTimeMillis" value="${minEvictableIdleTimeMillis}" />  
          <property name="validationQuery" value="${validationQuery}" />  
-         <property name="testWhileIdle" value="${testWhileIdle}" />  
-         <property name="testOnBorrow" value="${testOnBorrow}" />  
+         <property name="testWhileIdle" value="${testWhileIdle}" />
+		<property name="testOnBorrow" value="${testOnBorrow}" />
          <property name="testOnReturn" value="${testOnReturn}" />  
          <property name="maxOpenPreparedStatements" value="${maxOpenPreparedStatements}" />
          <!-- 打开removeAbandoned功能 -->
