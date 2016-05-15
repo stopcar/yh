@@ -17,12 +17,12 @@ public class IndexController extends BaseController {
     /**
      * 访问首页
      * @return
-     */
-    @RequestMapping(value="/toIndex")
+    */
+    @RequestMapping(value="/toindex.do")
     public ModelAndView toIndex(){
         ModelAndView mv = this.getModelAndView();
         PageData pd = this.getPageData();
-        pd.put("welcome","welcome");
+        pd.put("SYSNAME",Tools.readTxtFile(Const.SYSNAME));
         mv.setViewName("park/index/index");
         mv.addObject("pd",pd);
         return mv;
