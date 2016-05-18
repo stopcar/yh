@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="UserInfoMapper">
+
+	<resultMap type="UserInfo" id="UserInfoResultMap">
+		<id column="userID" property="userID"/>
+		<result column="userName" property="userName"/>
+		<result column="password" property="password"/>
+		<result column="gender" property="gender"/>
+		<result column="registrationTime" property="registrationTime"/>
+		<result column="qq" property="qq"/>
+		<result column="weiXin" property="weiXin"/>
+		<result column="mobilePhon" property="mobilePhon"/>
+		<result column="emailBox" property="emailBox"/>
+		<result column="Identity" property="Identity"/>
+		<result column="accountStatus" property="accountStatus"/>
+		<result column="userQuestionone" property="userQuestionone"/>
+		<result column="userQuestiononeans" property="userQuestiononeans"/>
+		<result column="userQuestiontwo" property="userQuestiontwo"/>
+		<result column="userQuestiontwoans" property="userQuestiontwoans"/>
+	</resultMap>
+
+	<select id="getUserInfoById" parameterType="pd" resultType="pd">
+	   select *
+		 from userinfo
+		where userID=#{userID}
+	</select>
+
+	<select id="getUserInfolistById" resultMap="UserInfoResultMap">
+		select *
+		 from userinfo
+		where userName=#{userName}
+	</select>
+
+</mapper>

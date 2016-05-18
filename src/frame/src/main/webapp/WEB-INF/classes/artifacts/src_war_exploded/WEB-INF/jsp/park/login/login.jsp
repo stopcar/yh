@@ -29,7 +29,7 @@
                     </div>
                     <div class="row-fluid">
                         <div class="span12">
-                            <form action="" method="post" class="form-horizontal">
+                            <form action="/park_login.do" method="post" class="form-horizontal">
                                 <table style="margin: 45px auto auto 80px">
                                     <tr>
                                         <td></td>
@@ -47,7 +47,7 @@
                                             </label>
                                         </td>
                                         <td>
-                                            <input type="text" id="inputusername" placeholder="会员/管理员">
+                                            <input type="text" id="inputusername" name="userName" placeholder="会员/管理员">
                                         </td>
                                     </tr>
                                     <tr>
@@ -57,7 +57,7 @@
                                             </label>
                                         </td>
                                         <td>
-                                            <input type="password" id="inputPassword" placeholder="密码">
+                                            <input type="password" id="inputPassword" name="password" placeholder="密码">
                                         </td>
                                     </tr>
                                     <tr>
@@ -70,10 +70,24 @@
                                             <a href="#">忘记密码？</a>
                                         </td>
                                     </tr>
+                                    <!-- 错误信息提示 -->
+                                    <c:if test="${pd.error != null}">
                                     <tr>
                                         <td></td>
-                                        <td style="padding-top: 26px;">
-                                            <button type="submit" class="btn btn-block" style="width: 200;">登录</button>
+                                        <td>
+                                            <div class="span12">
+                                                <div class="alert">
+                                                    <button type="button" class="close" data-dismiss="alert">×</button>
+                                                    <strong>警告!&nbsp;&nbsp;</strong>${pd.error}
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </c:if>
+                                    <tr>
+                                        <td></td>
+                                        <td style="padding-top: 10px;">
+                                            <button type="submit" class="btn btn-block" style="width: 200px;">登录</button>
                                         </td>
                                     </tr>
                                 </table>

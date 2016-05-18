@@ -24,7 +24,7 @@
                 <div class="span12" style="border-style: outset;height: 500px;background-color:#F0F8FF;">
                     <div class="row-fluid" style="height:45px;line-height:45px;">
                         <div class="span12 navbar-inner">
-                            <strong>登&nbsp;&nbsp;录</strong>
+                            <strong>注&nbsp;&nbsp;册</strong>
                         </div>
                     </div>
                     <div class="row-fluid">
