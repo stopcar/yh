@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a47bb047-4507-4576-8351-2c73994de388" name="Default" comment="首页和登录页">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/com/fh/entity/park/UserInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/com/fh/service/park/LoginService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/com/fh/entity/park/UserInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/com/fh/service/park/LoginService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/static/login/images/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/java/com/fh/entity/park/UserInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/java/com/fh/service/park/LoginService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/resources/mybatis/park/UserInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/mybatis/park/UserInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/mybatis/park/UserInfoMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/login/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/com/fh/controller/park/login/LoginController.class" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/com/fh/controller/park/login/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/com/fh/controller/park/login/LoginController.class" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/com/fh/controller/park/login/LoginController.class" />
+    <list default="true" id="a47bb047-4507-4576-8351-2c73994de388" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/java/com/fh/controller/park/login/LoginController.java" afterPath="$PROJECT_DIR$/frame/java/com/fh/controller/park/login/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/resources/mybatis/mybatis-config.xml" afterPath="$PROJECT_DIR$/frame/src/main/resources/mybatis/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/mybatis/mybatis-config.xml" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/mybatis/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/default/headtext.jsp" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/default/headtext.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/default/toptext.jsp" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/default/toptext.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/login/login.jsp" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/login/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/mybatis/mybatis-config.xml" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/mybatis/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/default/headtext.jsp" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/default/headtext.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/default/toptext.jsp" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/default/toptext.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/login/login.jsp" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/login/login.jsp" />
     </list>
     <ignored path="src.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1616,7 +1593,7 @@
       <workItem from="1463293188632" duration="4870000" />
       <workItem from="1463299247846" duration="16472000" />
       <workItem from="1463489266453" duration="9164000" />
-      <workItem from="1463502454280" duration="945000" />
+      <workItem from="1463502454280" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="IDEA配置修改">
       <created>1463107661089</created>
@@ -1648,11 +1625,17 @@
       <option name="project" value="LOCAL" />
       <updated>1463292627565</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="登录和注册">
+      <created>1463582755331</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1463582755331</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144155000" />
+    <option name="totallyTimeSpent" value="144220000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1669,6 +1652,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4034833" sideWeight="0.49741268" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51669085" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5805515" sideWeight="0.5064683" order="12" side_tool="true" content_ui="tabs" />
@@ -1691,7 +1675,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49492016" sideWeight="0.49159122" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49782294" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1744,7 +1727,8 @@
     <MESSAGE value="IDEA配置文件修改" />
     <MESSAGE value="首页" />
     <MESSAGE value="首页和登录页" />
-    <option name="LAST_COMMIT_MESSAGE" value="首页和登录页" />
+    <MESSAGE value="登录和注册" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录和注册" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1810,6 +1794,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.3027523">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1817,6 +1802,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.32262996">
           <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1824,6 +1810,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.6743119">
           <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1831,6 +1818,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5856269">
           <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1923,6 +1911,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.3333335">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1959,6 +1948,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3440367">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1966,6 +1956,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33279222">
           <caret line="398" column="14" selection-start-line="398" selection-start-column="12" selection-end-line="398" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1973,6 +1964,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45588234">
           <caret line="17" column="52" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1980,6 +1972,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24311927">
           <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2035,6 +2028,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38379204">
           <caret line="30" column="31" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2042,6 +2039,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2049,6 +2047,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.114982575">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1463332775253" expanded="true" signature="1143:1193" placeholder="select * fro... userinfo" />
+            <marker date="1463332775253" expanded="true" signature="1273:1327" placeholder="select * fro... userinfo" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2091,6 +2093,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5351682">
           <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+          <folding>
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2098,6 +2104,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35321102">
           <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2105,6 +2112,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1519608">
           <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
