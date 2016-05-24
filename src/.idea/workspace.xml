@@ -1,43 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a47bb047-4507-4576-8351-2c73994de388" name="Default" comment="登录和注册">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/static/login/images/loginsuccess.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/static/login/images/retrievePasswordSuccess.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/static/login/images/loginsuccess.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/static/login/images/retrievePasswordSuccess.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/login/loginsuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/login/retrievePasswordOne.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/login/retrievePasswordSuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/login/retrievePasswordThree.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/login/retrievePasswordTwo.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/login/loginsuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/login/retrievePasswordOne.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/login/retrievePasswordSuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/login/retrievePasswordThree.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/login/retrievePasswordTwo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/com/fh/controller/park/login/LoginController.class" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/com/fh/controller/park/login/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/com/fh/entity/park/UserInfo.class" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/com/fh/entity/park/UserInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/com/fh/service/park/LoginService.class" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/com/fh/service/park/LoginService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/com/fh/controller/park/login/LoginController.class" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/com/fh/controller/park/login/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/com/fh/entity/park/UserInfo.class" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/com/fh/entity/park/UserInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/com/fh/service/park/LoginService.class" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/com/fh/service/park/LoginService.class" />
+    <list default="true" id="a47bb047-4507-4576-8351-2c73994de388" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/java/com/fh/controller/park/login/LoginController.java" afterPath="$PROJECT_DIR$/frame/java/com/fh/controller/park/login/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/java/com/fh/entity/park/UserInfo.java" afterPath="$PROJECT_DIR$/frame/java/com/fh/entity/park/UserInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/java/com/fh/service/park/LoginService.java" afterPath="$PROJECT_DIR$/frame/java/com/fh/service/park/LoginService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/resources/mybatis/mybatis-config.xml" afterPath="$PROJECT_DIR$/frame/src/main/resources/mybatis/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/resources/mybatis/park/UserInfoMapper.xml" afterPath="$PROJECT_DIR$/frame/src/main/resources/mybatis/park/UserInfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/mybatis/mybatis-config.xml" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/mybatis/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/mybatis/park/UserInfoMapper.xml" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/classes/mybatis/park/UserInfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/default/headtext.jsp" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/default/headtext.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/login/login.jsp" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/login/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/login/register.jsp" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/artifacts/src_war_exploded/WEB-INF/jsp/park/login/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/mybatis/mybatis-config.xml" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/mybatis/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/mybatis/park/UserInfoMapper.xml" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/classes/production/src/mybatis/park/UserInfoMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/default/headtext.jsp" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/default/headtext.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/login/login.jsp" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/login/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/login/register.jsp" afterPath="$PROJECT_DIR$/frame/src/main/webapp/WEB-INF/jsp/park/login/register.jsp" />
     </list>
     <ignored path="src.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1687,7 +1652,7 @@
       <workItem from="1463489266453" duration="9164000" />
       <workItem from="1463502454280" duration="32981000" />
       <workItem from="1463820748107" duration="1461000" />
-      <workItem from="1463981879405" duration="25707000" />
+      <workItem from="1463981879405" duration="25792000" />
     </task>
     <task id="LOCAL-00001" summary="IDEA配置修改">
       <created>1463107661089</created>
@@ -1737,11 +1702,17 @@
       <option name="project" value="LOCAL" />
       <updated>1463582806549</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="找回密码(密保)">
+      <created>1464057936489</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1464057936489</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203359000" />
+    <option name="totallyTimeSpent" value="203444000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1834,7 +1805,8 @@
     <MESSAGE value="首页" />
     <MESSAGE value="首页和登录页" />
     <MESSAGE value="登录和注册" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录和注册" />
+    <MESSAGE value="找回密码(密保)" />
+    <option name="LAST_COMMIT_MESSAGE" value="找回密码(密保)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
