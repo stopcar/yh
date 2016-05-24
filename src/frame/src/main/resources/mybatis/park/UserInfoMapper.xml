@@ -21,6 +21,46 @@
 		<result column="userQuestiontwoans" property="userQuestiontwoans"/>
 	</resultMap>
 
+	<update id="editUserInfPassword" parameterType="pd">
+		update userinfo
+		set password = #{password}
+		where userName = #{userName}
+	</update>
+
+	<insert id="addUserInfo" parameterType="pd" flushCache="false">
+		insert into userinfo (
+		userName,
+        password,
+        gender,
+        registrationTime,
+        qq,
+        weiXin,
+        mobilePhon,
+        emailBox,
+        Identity,
+        accountStatus,
+        userQuestionone,
+        userQuestiononeans,
+        userQuestiontwo,
+        userQuestiontwoans
+		) values (
+		#{userName},
+        #{password},
+        #{gender},
+        #{registrationTime},
+        #{qq},
+        #{weiXin},
+        #{mobilePhon},
+        #{emailBox},
+        #{Identity},
+        #{accountStatus},
+        #{userQuestionone},
+        #{userQuestiononeans},
+        #{userQuestiontwo},
+        #{userQuestiontwoans}
+		)
+	</insert>
+
 	<select id="getUserInfoById" parameterType="pd" resultType="pd">
 	   select *
 		 from userinfo

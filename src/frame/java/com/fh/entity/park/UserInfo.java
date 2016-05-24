@@ -13,22 +13,31 @@ public class UserInfo {
     private String userName;	        //用户名
     private String password;	        //密码
     private String gender;	            //性别
-    private Date   registrationTime;    //注册时间
+    private Date   registrationTime;    //注册时间         后台里写
     private String qq;	                //qq
     private String weiXin;	            //微信号
     private String mobilePhon;	        //手机
     private String emailBox;	        //邮箱
-    private String Identity;	        //身份标识  0管理员  1用户
-    private String accountStatus;	    //帐户状态标识  0待审核 1正常使用 2黑名单
+    private String Identity;	        //身份标识  0管理员  1用户                                 后台里写  1 用户
+    private String accountStatus;	    //帐户状态标识  0待审核(不合理暂不用) 1正常使用 2黑名单        后台里写  1 正常使用
     private String userQuestionone;	    //密保问题一
     private String userQuestiononeans;	//密保问题一答案
     private String userQuestiontwo;	    //密保问题二
     private String userQuestiontwoans;	//密保问题二答案
 
     // 临时补充
-    private String IP;			//用户登录ip地址
+    private String enterpassword;       //确认密码
+    private String IP;			        //用户登录ip地址
     // 分页
-    private Page page;			//分页对象
+    private Page page;			        //分页对象
+
+    public String getEnterpassword() {
+        return enterpassword;
+    }
+
+    public void setEnterpassword(String enterpassword) {
+        this.enterpassword = enterpassword;
+    }
 
     public int getUserID() {
         return userID;

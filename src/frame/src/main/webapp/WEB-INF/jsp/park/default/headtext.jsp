@@ -1,7 +1,7 @@
 <!--防止乱码-->
 <%@page language="java" contentType="text/html; charset=UTF-8"  pageEncoding="UTF-8"%>
 
-<!--session 取用户Id 和用户名-->
+<!--session 存入 用户Id 和 用户名-->
 <% String userName = (String) session.getAttribute("userName"); %>
 
 <!-- 头部 文件 -->

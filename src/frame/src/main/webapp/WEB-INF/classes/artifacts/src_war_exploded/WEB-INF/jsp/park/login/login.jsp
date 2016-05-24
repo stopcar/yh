@@ -21,7 +21,7 @@
         <div class="row-fluid">
             <!--登录表单-->
             <div class="span6"  >
-                <div class="span12" style="border-style: outset;height: 500px;background-color:#F0F8FF;">
+                <div class="span12" style="border-style: outset;height: 530px;background-color:#F0F8FF;">
                     <div class="row-fluid" style="height:45px;line-height:45px;">
                         <div class="span12 navbar-inner">
                             <strong>登&nbsp;&nbsp;录</strong>
@@ -47,7 +47,7 @@
                                             </label>
                                         </td>
                                         <td>
-                                            <input type="text" id="inputusername" name="userName" placeholder="会员/管理员">
+                                            <input type="text" id="inputusername" name="userName" value="${pd.userName}" placeholder="会员/管理员">
                                         </td>
                                     </tr>
                                     <tr>
@@ -56,25 +56,25 @@
                                                 <span class="add-on"><strong>密码</strong>&nbsp;&nbsp;&nbsp;</span>
                                             </label>
                                         </td>
-                                        <td>
+                                        <td style="padding-top: 10px;">
                                             <input type="password" id="inputPassword" name="password" placeholder="密码">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td></td>
                                         <td style="padding-top: 8px;">
-                                            <a href="#">立即注册</a>
+                                            <a href="/park_toregister.do">立即注册</a>
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <a href="#">忘记密码？</a>
+                                            <a href="/park_retrievePassword.do">忘记密码？</a>
                                         </td>
                                     </tr>
                                     <!-- 错误信息提示 -->
                                     <c:if test="${pd.error != null}">
                                     <tr>
                                         <td></td>
-                                        <td>
+                                        <td style="padding-top: 5px;">
                                             <div class="span12">
                                                 <div class="alert">
                                                     <button type="button" class="close" data-dismiss="alert">×</button>
@@ -86,8 +86,8 @@
                                     </c:if>
                                     <tr>
                                         <td></td>
-                                        <td style="padding-top: 10px;">
-                                            <button type="submit" class="btn btn-block" style="width: 200px;">登录</button>
+                                        <td style="padding-top: 5px;">
+                                            <button type="submit" class="btn btn-block" style="width: 218px;">登录</button>
                                         </td>
                                     </tr>
                                 </table>
