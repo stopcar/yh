@@ -37,47 +37,71 @@
                         <thead>
                         <tr>
                             <th>编号</th>
-                            <th>产品</th>
-                            <th>交付时间</th>
-                            <th>状态</th>
+                            <th>车位名称</th>
+                            <th>发布时间</th>
+                            <th>发布人类型</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <td>1</td>
-                            <td><a href="/tologin.do">TB - Monthly</a></td>
-                            <td>01/04/2012</td>
-                            <td>Default</td>
+                            <td><a href="/tologin.do">广州雅居乐十年小雅地下车位出租</a></td>
+                            <td>01/06/2016</td>
+                            <td>个人</td>
                         </tr>
                         <tr class="success">
-                            <td>1</td>
-                            <td><a href="/tologin.do">TB - Monthly</a></td>
-                            <td>01/04/2012</td>
-                            <td>Approved</td>
-                        </tr>
-                        <tr class="error">
                             <td>2</td>
                             <td><a href="/tologin.do">TB - Monthly</a></td>
-                            <td>02/04/2012</td>
-                            <td>Declined</td>
+                            <td>01/06/2016</td>
+                            <td>商户</td>
                         </tr>
-                        <tr class="warning">
+                        <tr class="error">
                             <td>3</td>
                             <td><a href="/tologin.do">TB - Monthly</a></td>
-                            <td>03/04/2012</td>
-                            <td>Pending</td>
+                            <td>31/05/2016</td>
+                            <td>个人</td>
                         </tr>
-                        <tr class="info">
+                        <tr class="warning">
                             <td>4</td>
                             <td><a href="/tologin.do">TB - Monthly</a></td>
-                            <td>04/04/2012</td>
-                            <td>Call in to confirm</td>
+                            <td>31/05/2016</td>
+                            <td>个人</td>
                         </tr>
                         <tr class="info">
-                            <td>4</td>
+                            <td>5</td>
                             <td><a href="/tologin.do">TB - Monthly</a></td>
-                            <td>04/04/2012</td>
-                            <td>Call in to confirm</td>
+                            <td>31/05/2016</td>
+                            <td>个人</td>
+                        </tr>
+                        <tr class="info">
+                            <td>6</td>
+                            <td><a href="/tologin.do">TB - Monthly</a></td>
+                            <td>31/05/2016</td>
+                            <td>个人</td>
+                        </tr>
+                        <tr class="info">
+                            <td>7</td>
+                            <td><a href="/tologin.do">TB - Monthly</a></td>
+                            <td>31/05/2016</td>
+                            <td>个人</td>
+                        </tr>
+                        <tr class="info">
+                            <td>8</td>
+                            <td><a href="/tologin.do">TB - Monthly</a></td>
+                            <td>31/05/2016</td>
+                            <td>个人</td>
+                        </tr>
+                        <tr class="info">
+                            <td>9</td>
+                            <td><a href="/tologin.do">TB - Monthly</a></td>
+                            <td>31/05/2016</td>
+                            <td>个人</td>
+                        </tr>
+                        <tr class="info">
+                            <td>10</td>
+                            <td><a href="/tologin.do">TB - Monthly</a></td>
+                            <td>31/05/2016</td>
+                            <td>个人</td>
                         </tr>
                         </tbody>
                     </table>

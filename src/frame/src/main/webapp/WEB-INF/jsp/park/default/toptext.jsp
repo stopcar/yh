@@ -53,7 +53,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="/tologin.do">
+                                <a href="/park_manage.do">
                                     <strong>管理中心</strong>
                                 </a>
                             </li>

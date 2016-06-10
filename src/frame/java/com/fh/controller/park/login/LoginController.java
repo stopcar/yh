@@ -13,7 +13,7 @@ import javax.servlet.http.HttpSession;
 import java.util.List;
 
 /**
- * 身份认证
+ * 身份认证(+个人中心管理)
  * 1、登录(用户和管理员) session放入用户ID和用户名 黑名单判断
  * 2、注册（填密保问题）
  * 3、找回密码（密保）

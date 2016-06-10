@@ -21,6 +21,65 @@
 		<result column="userQuestiontwoans" property="userQuestiontwoans"/>
 	</resultMap>
 
+	<update id="editUserInfaccountStatus" parameterType="pd">
+		update userinfo
+		set accountStatus = #{accountStatus}
+		where userID = #{userID}
+	</update>
+
+	<delete id="deleteUserInfo" parameterType="pd">
+		delete from userinfo
+		where userID=#{userID}
+	</delete>
+
+	<update id="updateUserInfo" parameterType="pd">
+		update userinfo set
+		userID = #{userID},
+		userName = #{userName},
+		password = #{password},
+		gender = #{gender},
+		registrationTime = #{registrationTime},
+		qq = #{qq},
+		weiXin = #{weiXin},
+		mobilePhon = #{mobilePhon},
+		emailBox = #{emailBox},
+		Identity = #{Identity},
+		accountStatus = #{accountStatus},
+		userQuestionone = #{userQuestionone},
+		userQuestiononeans = #{userQuestiononeans},
+		userQuestiontwo = #{userQuestiontwo},
+		userQuestiontwoans = #{userQuestiontwoans}
+		where
+		userID=#{userID}
+	</update>
+
+	<select id="selectlistAllUserInfo" parameterType="pd" resultType="pd">
+		select userID,
+		userName,
+		password,
+		gender,
+		registrationTime,
+		qq,
+		weiXin,
+		mobilePhon,
+		emailBox,
+		Identity,
+		accountStatus,
+		userQuestionone,
+		userQuestiononeans,
+		userQuestiontwo,
+		userQuestiontwoans
+		from userinfo
+		where 1 = 1
+		<if test="userName != null and userName != ''"><!-- 用户名检索 -->
+			and userName = #{userName}
+
+		</if>
+		<if test="Identity!=null and Identity!=''"><!-- 用户身份 -->
+			and Identity = #{Identity}
+		</if>
+	</select>
+
 	<update id="editUserInfPassword" parameterType="pd">
 		update userinfo
 		set password = #{password}
@@ -71,6 +130,12 @@
 		select *
 		 from userinfo
 		where userName=#{userName}
+	</select>
+
+	<select id="getUserInfolistByuserId" resultMap="UserInfoResultMap">
+		select *
+		from userinfo
+		where userID = #{userID}
 	</select>
 
 </mapper>
