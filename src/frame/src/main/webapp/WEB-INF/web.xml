@@ -107,7 +107,7 @@
 	</error-page>
 	
 	
-<!--
+    <!--
 	 <error-page>
 	    <error-code>405</error-code>
 	   <location>/WEB-INF/405.html</location>
@@ -128,8 +128,21 @@
 	   <error-code>java.lang.NullPointerException</error-code>
 	   <location>/WEB-INF/error.html</location>
 	 </error-page>
--->
+    -->
+
 	<session-config>
 		<session-timeout>600</session-timeout>
 	</session-config>
+
+	<!-- 首页的设置
+	     （1）、WEB-INF/web.xml <welcome-file-list>
+	     （2）、tomcat服务器 conf/web.xml <welcome-file-list>
+          注：优先级 （1）>（2）
+    -->
+	<!-- 首页
+	<welcome-file-list>
+		<welcome-file>404.jsp</welcome-file>
+	</welcome-file-list>
+    -->
+
 </web-app>
